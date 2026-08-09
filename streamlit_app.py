@@ -19,7 +19,7 @@ st.markdown("Upload PDFs and ask questions about them.")
 if "GOOGLE_API_KEY" not in os.environ:
     os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
 
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.1)
+llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.1)
 
 prompt = ChatPromptTemplate.from_template(
     """Answer using the context. Mention the source filename.
