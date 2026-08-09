@@ -1,8 +1,9 @@
 streamlit
 langchain
-langchain-google-genai
 langchain-community
-chromadb==0.4.15
+langchain-core
+langchain-google-genai
+chromadb
 pypdf
 sentence-transformers
 python-dotenv
