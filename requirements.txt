@@ -1,4 +1,4 @@
-streamlit
+streamlit==1.48.1
 langchain
 langchain-classic
 langchain-google-genai
@@ -6,4 +6,6 @@ langchain-community
 chromadb
 pypdf
 sentence-transformers
+torch
+torchvision
 python-dotenv
