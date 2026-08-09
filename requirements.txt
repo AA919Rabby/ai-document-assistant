@@ -2,7 +2,7 @@ streamlit
 langchain
 langchain-google-genai
 langchain-community
-chromadb==0.4.15
+chromadb
 pypdf
 sentence-transformers
 python-dotenv
