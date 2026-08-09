@@ -2,8 +2,8 @@ import os
 import shutil
 import streamlit as st
 from dotenv import load_dotenv
-from langchain.chains.combine_documents import create_stuff_documents_chain
-from langchain.chains.retrieval import create_retrieval_chain
+from langchain_classic.chains.combine_documents import create_stuff_documents_chain
+from langchain_classic.chains.retrieval import create_retrieval_chain
 from langchain_core.prompts import ChatPromptTemplate, PromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 from rag_engine import get_retriever, add_pdf_to_knowledge_base, clear_database_safe
